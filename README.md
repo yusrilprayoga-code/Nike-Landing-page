@@ -26,7 +26,7 @@ Visit the live site: [https://nike-landing-page-chi.vercel.app/](https://nike-la
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/nike-landing-page.git
+   git clone https://github.com/yusrilprayoga-code/nike-landing-page.git
    cd nike-landing-page
    ```
 
