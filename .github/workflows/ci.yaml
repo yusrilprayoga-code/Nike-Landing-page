@@ -3,7 +3,7 @@ name: CI for Nike Landing Page
 on:
   push:
     branches:
-      - main  
+      - main
   pull_request:
     branches:
       - main
@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
@@ -32,9 +32,3 @@ jobs:
 
       - name: Build the project
         run: npm run build
-
-      - name: Upload build artifacts (optional)
-        uses: actions/upload-artifact@v3
-        with:
-          name: react-app-build
-          path: build
